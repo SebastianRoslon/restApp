@@ -38,7 +38,8 @@ public class Service {
             if (getCurrencyFromJson().getRates().get(i).getCode().equals(currency)) {
                 currencyValue = getCurrencyFromJson().getRates().get(i).getMid();
                 log.info(String.valueOf(currencyValue));
-            }
+            }else
+                return "bad currency code: " + currency;
         }
         return "value: " + currencyValue;
     }

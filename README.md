@@ -5,11 +5,12 @@ Application which accept HTTP calls for some tasks.
 *  "/status/ping" - returns "pong":
 
 <img src="https://user-images.githubusercontent.com/61514770/206476925-5aed22a6-de74-4713-97fb-3eeab6bae409.png" width="500" >
+<br><br>
 
 * "/numbers/sort-command" - returns sorted numbers:
 
 <img src="https://user-images.githubusercontent.com/61514770/206476952-317c582e-713f-4692-a7f9-95ca9b48d55e.png" width="500" >
-
+<br><br>
 
 * "/currencies/get-current-currency-value-command" returns the value of the entered currency from the NBP api:
 
